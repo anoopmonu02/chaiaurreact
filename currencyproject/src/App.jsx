@@ -28,7 +28,15 @@ function App() {
     style={{backgroundImage: `url('https://images.pexels.com/photos/321452/pexels-photo-321452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`}}
     >
 
-        <div className='w-full/2'>
+      <div className='flex flex-row'>
+        <div className="basis-1/2 rounded-lg p-5 backdrop-blur-sm items-center contain bg-center bg-[length:200px_100px] bg-no-repeat justify-center
+        border border-gray-60"  
+        style={{backgroundImage: `url('https://images.pexels.com/photos/3750665/pexels-photo-3750665.jpeg')`}}      
+        >
+          
+        </div>
+        <div className="row-start-1 row-end-4">
+          <div className='w-full/2'>
 
             <div className='w-full mx-w-md mx-auto border border-gray-60 
             rounded-lg p-5 backdrop-blur-sm bg-white/30'>
@@ -75,7 +83,11 @@ function App() {
 
             </div>
 
+          </div>
         </div>
+      </div>
+
+       
 
     </div>
   )
