@@ -15,3 +15,4 @@ temp/
 tmp/
 
 node_modules/
+MegaBlog/.env
